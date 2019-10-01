@@ -4,10 +4,10 @@ declare(strict_types = 1);
 
 namespace App;
 
+use Drago\Simple\Latte;
 use Latte\Engine;
 use Nette\Bridges\FormsLatte\FormMacros;
 use Nette\Loaders\RobotLoader;
-use Single\Latte;
 use Tracy\Debugger;
 
 

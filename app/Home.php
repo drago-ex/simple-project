@@ -17,7 +17,7 @@ final class Home
 	}
 
 
-	public function render()
+	public function render(): void
 	{
 		$this->latte->render(__DIR__ . '/templates/Home.latte');
 	}

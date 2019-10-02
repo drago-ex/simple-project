@@ -29,7 +29,7 @@ class Bootstrap
 	{
 		$latte = new Latte;
 		$latte->setTempDirectory(__DIR__ . '/../storage/_Latte.TemplateCache');
-		$latte->onCompile[] = function() use($latte) {
+		$latte->onCompile[] = function () use ($latte) {
 			FormMacros::install($latte->getCompiler());
 		};
 		return $latte;

@@ -10,7 +10,7 @@ use Latte\Engine;
 final class Home
 {
 	/** @var Engine */
-	private  $latte;
+	private $latte;
 
 
 	public function __construct(Engine $latte)

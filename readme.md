@@ -9,7 +9,7 @@
 Basic project for simple website.
 
 [![PHP version](https://badge.fury.io/ph/drago-ex%2Fsimple-project.svg)](https://badge.fury.io/ph/drago-ex%2Fsimple-project)
-https://travis-ci.org/drago-ex/simple-project.svg?branch=master
+[![Build Status](https://travis-ci.org/drago-ex/simple-project.svg?branch=master)](https://travis-ci.org/drago-ex/simple-project)
 [![CodeFactor](https://www.codefactor.io/repository/github/drago-ex/simple-project/badge)](https://www.codefactor.io/repository/github/drago-ex/simple-project)
 
 ## Requirements

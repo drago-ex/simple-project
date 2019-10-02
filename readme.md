@@ -8,6 +8,9 @@
 ## Info
 Basic project for simple website.
 
+[![PHP version](https://badge.fury.io/ph/drago-ex%2Fsimple-project.svg)](https://badge.fury.io/ph/drago-ex%2Fsimple-project)
+[![CodeFactor](https://www.codefactor.io/repository/github/drago-ex/simple-project/badge)](https://www.codefactor.io/repository/github/drago-ex/simple-project)
+
 ## Requirements
 - PHP 7.1 or higher
 - composer

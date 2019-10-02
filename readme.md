@@ -6,18 +6,13 @@
 <p align="center">Simple packages built on Nette Framework</p>
 
 ## Info
-
 Basic project for simple website.
 
 ## Requirements
-
 - PHP 7.1 or higher
 - composer
 
 ## Installation
-
 ```
 composer require drago/simple-project
 ```
-
-## Documentation

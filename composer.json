@@ -11,7 +11,8 @@
 	],
 	"require": {
 		"php": ">=7.1",
-		"drago-ex/simple": "^1.0"
+		"drago-ex/simple": "^1.0",
+		"dg/composer-cleaner": "^2.0"
 	},
 	"autoload": {
 		"classmap": ["app/Bootstrap.php"]

@@ -11,6 +11,7 @@
 	],
 	"require": {
 		"php": ">=7.1",
+		"tracy/tracy": "^2.7",
 		"drago-ex/simple": "^1.0",
 		"dg/composer-cleaner": "^2.1"
 	},

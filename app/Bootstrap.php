@@ -6,7 +6,6 @@ namespace App;
 
 use Drago\Simple\Latte;
 use Latte\Engine;
-use Nette\Bridges\FormsLatte\FormMacros;
 use Nette\Loaders\RobotLoader;
 use Tracy\Debugger;
 
@@ -29,9 +28,6 @@ class Bootstrap
 	{
 		$latte = new Latte;
 		$latte->setTempDirectory(__DIR__ . '/../storage/_Latte.TemplateCache');
-		$latte->onCompile[] = function () use ($latte) {
-			FormMacros::install($latte->getCompiler());
-		};
 		return $latte;
 	}
 }

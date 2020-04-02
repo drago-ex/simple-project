@@ -10,10 +10,14 @@
 		}
 	],
 	"require": {
-		"php": ">=7.1",
+		"php": ">=7.2",
 		"tracy/tracy": "^2.7",
 		"drago-ex/simple": "^1.0",
 		"dg/composer-cleaner": "^2.1"
+	},
+	"require-dev": {
+		"nette/code-checker": "^3.1",
+		"nette/coding-standard": "^2.3"
 	},
 	"autoload": {
 		"classmap": ["app/Bootstrap.php"]

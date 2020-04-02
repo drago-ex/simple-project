@@ -13,7 +13,7 @@ Basic project for simple website.
 [![CodeFactor](https://www.codefactor.io/repository/github/drago-ex/simple-project/badge)](https://www.codefactor.io/repository/github/drago-ex/simple-project)
 
 ## Requirements
-- PHP 7.1 or higher
+- PHP 7.2 or higher
 - composer
 
 ## Installation

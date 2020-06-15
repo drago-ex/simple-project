@@ -15,6 +15,9 @@
 		"drago-ex/simple": "^1.0",
 		"dg/composer-cleaner": "^2.1"
 	},
+	"require-dev": {
+		"phpstan/phpstan-nette": "^0.12"
+	},
 	"autoload": {
 		"classmap": ["app/Bootstrap.php"]
 	}

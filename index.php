@@ -2,12 +2,13 @@
 
 declare(strict_types = 1);
 
-// Autoload composer.
+use App\Bootstrap;
+use App\Home;
+
 require __DIR__ . '/vendor/autoload.php';
 
-$app = new App\Bootstrap();
+$app = new Bootstrap;
 $app::boot();
 
-// Drawing a template.
-$home = new App\Home($app::latte());
+$home = new Home($app::latte());
 $home->render();

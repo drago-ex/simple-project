@@ -22,6 +22,6 @@
 		"classmap": ["app/Bootstrap.php"]
 	},
 	"scripts": {
-		"phpstan": "phpstan analyse --configuration phpstan.neon app"
+		"phpstan": "phpstan analyse --level 5 --configuration phpstan.neon app"
 	}
 }

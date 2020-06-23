@@ -12,7 +12,7 @@ Basic project for create single-page sites.
 [![Build Status](https://travis-ci.org/drago-ex/simple-project.svg?branch=master)](https://travis-ci.org/drago-ex/simple-project)
 [![CodeFactor](https://www.codefactor.io/repository/github/drago-ex/simple-project/badge)](https://www.codefactor.io/repository/github/drago-ex/simple-project)
 
-## Requirements
+## Technology
 - PHP 7.4 or higher
 - composer
 

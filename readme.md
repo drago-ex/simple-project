@@ -3,17 +3,17 @@
 </p>
 
 <h3 align="center">Drago Extension</h3>
-<p align="center">Simple packages built on Nette Framework</p>
+<p align="center">Extension for Nette Framework</p>
 
-## Info
-Basic project for simple website.
+## Drago Simple project
+Basic project for create single-page sites.
 
 [![PHP version](https://badge.fury.io/ph/drago-ex%2Fsimple-project.svg)](https://badge.fury.io/ph/drago-ex%2Fsimple-project)
 [![Build Status](https://travis-ci.org/drago-ex/simple-project.svg?branch=master)](https://travis-ci.org/drago-ex/simple-project)
 [![CodeFactor](https://www.codefactor.io/repository/github/drago-ex/simple-project/badge)](https://www.codefactor.io/repository/github/drago-ex/simple-project)
 
 ## Requirements
-- PHP 7.1 or higher
+- PHP 7.4 or higher
 - composer
 
 ## Installation

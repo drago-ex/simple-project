@@ -10,9 +10,9 @@
 		}
 	],
 	"require": {
-		"php": ">=7.4",
+		"php": ">=8.0",
 		"tracy/tracy": "^2.7",
-		"drago-ex/simple": "^1.0",
+		"drago-ex/simple": "dev-master",
 		"dg/composer-cleaner": "^2.1"
 	},
 	"require-dev": {

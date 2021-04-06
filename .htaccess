@@ -3,15 +3,19 @@
 	Options -Indexes
 </IfModule>
 
-# disable listing latte templates
-<Files ~ '\.(latte)$'>
+# disable listing configuration files
+<Files ~ '\.(latte|log|html)$'>
 	order allow,deny
 	deny from all
 </Files>
 
-# enable gzip compression
-<IfModule mod_deflate.c>
-	<IfModule mod_filter.c>
-		AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/json application/xml image/svg+xml
-	</IfModule>
+# redirection of requests to www
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	RewriteRule ^$ www/ [L]
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_URI} !^/www/
+	RewriteRule ^(.*)$ www/$1
 </IfModule>

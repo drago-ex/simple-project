@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
 namespace App;
 
@@ -9,12 +9,9 @@ use Latte\Engine;
 
 final class Home
 {
-	private Engine $latte;
-
-
-	public function __construct(Engine $latte)
-	{
-		$this->latte = $latte;
+	public function __construct(
+		private Engine $latte,
+	) {
 	}
 
 

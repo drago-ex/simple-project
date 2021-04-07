@@ -9,7 +9,7 @@
 Basic project for create single-page sites.
 
 [![PHP version](https://badge.fury.io/ph/drago-ex%2Fsimple-project.svg)](https://badge.fury.io/ph/drago-ex%2Fsimple-project)
-[![Build Status](https://travis-ci.com/drago-ex/simple-project.svg?branch=master)](https://travis-ci.org/drago-ex/simple-project)
+[![Build Status](https://travis-ci.com/drago-ex/simple-project.svg?branch=master)](https://travis-ci.com/drago-ex/simple-project)
 [![CodeFactor](https://www.codefactor.io/repository/github/drago-ex/simple-project/badge)](https://www.codefactor.io/repository/github/drago-ex/simple-project)
 
 ## Technology

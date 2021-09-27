@@ -17,7 +17,7 @@ class Bootstrap
 		Debugger::enable(Debugger::DETECT, __DIR__ . '/../log');
 
 		$loader = new RobotLoader;
-		$loader->setTempDirectory(__DIR__ . '/../storage/_Nette.RobotLoaderCache')
+		$loader->setTempDirectory(__DIR__ . '/../temp/_Nette.RobotLoaderCache')
 			->addDirectory(__DIR__)
 			->register();
 	}
@@ -26,7 +26,7 @@ class Bootstrap
 	public static function latte(): Latte
 	{
 		$latte = new Latte;
-		$latte->setTempDirectory(__DIR__ . '/../storage/_Latte.TemplateCache');
+		$latte->setTempDirectory(__DIR__ . '/../temp/_Latte.TemplateCache');
 		return $latte;
 	}
 }

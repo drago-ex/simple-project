@@ -12,8 +12,7 @@
 	"require": {
 		"php": ">=8.0",
 		"tracy/tracy": "^2.7",
-		"drago-ex/simple": "^1.0",
-		"dg/composer-cleaner": "^2.1"
+		"drago-ex/simple": "^1.0"
 	},
 	"require-dev": {
 		"phpstan/phpstan-nette": "^0.12"

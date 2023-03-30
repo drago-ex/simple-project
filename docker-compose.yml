@@ -1,0 +1,15 @@
+# docker version
+version: '3.7'
+
+# docker service
+services:
+
+
+  # php server
+  php:
+    build: docker
+    restart: always
+    volumes:
+      - ./:/var/www/html/
+    ports:
+      - '8090:80'

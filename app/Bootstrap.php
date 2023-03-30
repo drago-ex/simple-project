@@ -14,10 +14,11 @@ class Bootstrap
 	public static function boot(): void
 	{
 		Debugger::$strictMode = true;
-		Debugger::enable(Debugger::DETECT, __DIR__ . '/../log');
+		$mode = getenv('NETTE_DEBUG') == 1 ? false : Debugger::DETECT;
+		Debugger::enable($mode, __DIR__ . '/../log');
 
 		$loader = new RobotLoader;
-		$loader->setTempDirectory(__DIR__ . '/../temp/_Nette.RobotLoaderCache')
+		$loader->setTempDirectory(__DIR__ . '/../var/_Nette.RobotLoaderCache')
 			->addDirectory(__DIR__)
 			->register();
 	}
@@ -26,7 +27,7 @@ class Bootstrap
 	public static function latte(): Latte
 	{
 		$latte = new Latte;
-		$latte->setTempDirectory(__DIR__ . '/../temp/_Latte.TemplateCache');
+		$latte->setTempDirectory(__DIR__ . '/../var/_Latte.TemplateCache');
 		return $latte;
 	}
 }

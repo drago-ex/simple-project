@@ -10,7 +10,7 @@
 		}
 	],
 	"require": {
-		"php": ">=8.0",
+		"php": ">=8.1",
 		"tracy/tracy": "^2.7",
 		"drago-ex/simple": "^1.0"
 	},

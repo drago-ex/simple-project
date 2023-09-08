@@ -27,6 +27,7 @@ class Bootstrap
 	public static function latte(): Latte
 	{
 		$latte = new Latte;
+		$latte->setStrictParsing();
 		$latte->setTempDirectory(__DIR__ . '/../var/_Latte.TemplateCache');
 		return $latte;
 	}

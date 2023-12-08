@@ -4,7 +4,7 @@
 </IfModule>
 
 # Disable listing configuration files
-<Files ~ '\.(latte|log|html)$'>
+<Files ~ "\.(latte|log|html)$">
 	order allow,deny
 	deny from all
 </Files>

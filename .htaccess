@@ -1,9 +1,9 @@
-# disable directory listing
+# Disable directory listing for security reasons
 <IfModule mod_autoindex.c>
 	Options -Indexes
 </IfModule>
 
-# disable listing configuration files
+# Disable listing configuration files
 <Files ~ '\.(latte|log|html)$'>
 	order allow,deny
 	deny from all

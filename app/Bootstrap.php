@@ -24,7 +24,7 @@ class Bootstrap
 
 		// Set debug mode based on environment variable
 		$mode = getenv('NETTE_DEBUG') == 1 ? false : Debugger::DETECT;
-		Debugger::enable($mode, __DIR__ . '/../log');
+		Debugger::enable($mode, __DIR__ . '/../var/log');
 
 		// Set up RobotLoader for autoload
 		$loader = new RobotLoader;

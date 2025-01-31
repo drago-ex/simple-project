@@ -14,22 +14,32 @@ use Tracy\Debugger;
  */
 class Bootstrap
 {
+	private string $rootDir;
+
+
+	public function __construct()
+	{
+		// Root directory of the project.
+		$this->rootDir = dirname(__DIR__);
+	}
+
+
 	/**
 	 * Bootstraps the application by enabling Debugger and setting up RobotLoader.
 	 */
-	public static function boot(): void
+	public function initialize(): void
 	{
 		// Enable strict mode for Tracy Debugger
 		Debugger::$strictMode = true;
 
 		// Set debug mode based on environment variable
-		$mode = getenv('NETTE_DEBUG') == 1 ? false : Debugger::DETECT;
-		Debugger::enable($mode, __DIR__ . '/../var/log');
+		$mode = getenv('NETTE_DEBUG') == 1 ? false : Debugger::Detect;
+		Debugger::enable($mode, $this->rootDir . '/var/log');
 
 		// Set up RobotLoader for autoload
 		$loader = new RobotLoader;
-		$loader->setTempDirectory(__DIR__ . '/../var/_Nette.RobotLoaderCache')
-			->addDirectory(__DIR__)  // Add current directory to the autoloader
+		$loader->setTempDirectory($this->rootDir . '/var/_Nette.RobotLoaderCache')
+			->addDirectory(__DIR__)
 			->register();
 	}
 
@@ -37,11 +47,11 @@ class Bootstrap
 	/**
 	 * Creates and configures the Latte templating engine.
 	 */
-	public static function latte(): Latte
+	public function engine(): Latte
 	{
 		$latte = new Latte;
-		$latte->setStrictParsing();  // Enable strict parsing for templates
-		$latte->setTempDirectory(__DIR__ . '/../var/_Latte.TemplateCache');  // Set cache directory for templates
+		$latte->setStrictParsing();
+		$latte->setTempDirectory($this->rootDir . '/var/_Latte.TemplateCache');
 		return $latte;
 	}
 }

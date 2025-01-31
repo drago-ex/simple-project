@@ -8,7 +8,7 @@ use App\Home;
 require __DIR__ . '/../vendor/autoload.php';
 
 $app = new Bootstrap;
-$app::boot();
+$app->initialize();
 
-$home = new Home($app::latte());
+$home = new Home($app->engine());
 $home->render();

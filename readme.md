@@ -5,9 +5,10 @@ Basic project for create single-page sites.
 [![Coding Style](https://github.com/drago-ex/simple-project/actions/workflows/coding-style.yml/badge.svg)](https://github.com/drago-ex/simple-project/actions/workflows/coding-style.yml)
 [![CodeFactor](https://www.codefactor.io/repository/github/drago-ex/simple-project/badge)](https://www.codefactor.io/repository/github/drago-ex/simple-project)
 
-## Technology
-- PHP 8.3 or higher
-- composer
+## Requirements
+- PHP >= 8.3
+- Nette Framework
+- Composer
 
 ## Installation
 ```

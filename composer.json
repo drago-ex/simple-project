@@ -2,7 +2,6 @@
 	"name": "drago-ex/simple-project",
 	"type": "library",
 	"description": "Basic project for create single-page sites on Drago Simple",
-	"license": ["MIT"],
 	"authors": [
 		{
 			"name": "Zdeněk Papučík",

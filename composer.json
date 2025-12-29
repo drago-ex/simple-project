@@ -1,6 +1,6 @@
 {
 	"name": "drago-ex/simple-project",
-	"type": "library",
+	"type": "project",
 	"description": "Basic project for create single-page sites on Drago Simple",
 	"authors": [
 		{

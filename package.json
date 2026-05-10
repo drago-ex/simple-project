@@ -7,6 +7,8 @@
     "docker:build": "concurrently -n=build -c=green \"docker-compose build\"",
     "docker:dev": "concurrently -n=dev -c=blue \"docker-compose -f docker-compose.yml -f docker-compose.dev.yml up\"",
     "docker:pro": "concurrently -n=pro -c=blue \"docker-compose up --no-deps php\"",
-    "docker:off": "docker-compose down"
+    "docker:off": "docker-compose down",
+    "docker:production": "npm run docker:pro",
+    "docker:down": "npm run docker:off"
   }
 }

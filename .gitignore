@@ -1,0 +1,12 @@
+/vendor/
+/node_modules/
+/var/*
+!/var/log/
+!/var/log/.gitignore
+
+/docker/mysql/
+
+/.idea/
+
+/composer.lock
+/package-lock.json

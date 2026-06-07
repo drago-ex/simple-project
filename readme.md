@@ -14,5 +14,5 @@ Basic project for create single-page sites.
 
 ## Installation
 ```
-composer require drago/simple-project
+composer create-project drago-ex/simple-project
 ```

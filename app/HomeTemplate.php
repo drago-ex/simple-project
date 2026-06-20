@@ -11,6 +11,5 @@ namespace App;
  */
 class HomeTemplate
 {
-	/** The base path of the application. */
 	public string $basePath;
 }

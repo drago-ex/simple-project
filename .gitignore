@@ -1,8 +1,9 @@
 /vendor/
 /node_modules/
-/var/*
-!/var/log/
-!/var/log/.gitignore
+/temp/*
+!/temp/.gitignore
+/log/*
+!/log/.gitignore
 
 /docker/mysql/
 

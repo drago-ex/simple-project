@@ -1,14 +1,9 @@
 {
-  "name": "project",
-  "devDependencies": {
-    "concurrently": "^8.2.0"
-  },
+  "name": "simple-project",
   "scripts": {
-    "docker:build": "concurrently -n=build -c=green \"docker-compose build\"",
-    "docker:dev": "concurrently -n=dev -c=blue \"docker-compose -f docker-compose.yml -f docker-compose.dev.yml up\"",
-    "docker:pro": "concurrently -n=pro -c=blue \"docker-compose up --no-deps php\"",
-    "docker:off": "docker-compose down",
-    "docker:production": "npm run docker:pro",
-    "docker:down": "npm run docker:off"
+    "docker:build": "docker build -t php-server docker/ && docker compose build --no-cache",
+    "docker:dev": "docker build -t php-server docker/ && docker compose build && docker compose up -d",
+    "docker:production": "docker build -t php-server docker/ && docker compose build && docker compose --env-file docker/.env.production up -d",
+    "docker:down": "docker compose down --volumes --remove-orphans"
   }
 }

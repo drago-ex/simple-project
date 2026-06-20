@@ -1,6 +1,6 @@
-# Drago Simple project
+# Drago Simple Project
 
-Basic project for create single-page sites.
+Basic project for creating single-page sites with Drago Simple and a ready-to-use PHP Docker server.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/drago-ex/simple-project/blob/main/license)
 
@@ -11,8 +11,9 @@ Basic project for create single-page sites.
 - PHP >= 8.3
 - Nette Framework
 - Composer
+- Docker
 
 ## Installation
-```
+```bash
 composer create-project drago-ex/simple-project
 ```

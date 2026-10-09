@@ -8,12 +8,14 @@ Basic project for creating single-page sites with Drago Simple and a ready-to-us
 [![Coding Style](https://github.com/drago-ex/simple-project/actions/workflows/coding-style.yml/badge.svg)](https://github.com/drago-ex/simple-project/actions/workflows/coding-style.yml)
 
 ## Requirements
+
 - PHP >= 8.3
 - Nette Framework
 - Composer
 - Docker
 
 ## Installation
+
 ```bash
 composer create-project drago-ex/simple-project
 ```

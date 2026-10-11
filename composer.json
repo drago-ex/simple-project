@@ -23,6 +23,12 @@
 			"App\\": "app"
 		}
 	},
+	"extra": {
+		"drago-tools": {
+			"vendor-names": ["drago-ex"],
+			"allow-library-install": true
+		}
+	},
 	"scripts": {
 		"phpstan": "phpstan analyse",
 		"post-install-cmd": [
@@ -33,11 +39,5 @@
 			"drago-install",
 			"drago-clean"
 		]
-	},
-	"extra": {
-		"drago-tools": {
-			"vendor-names": ["drago-ex"],
-			"allow-library-install": true
-		}
 	}
 }

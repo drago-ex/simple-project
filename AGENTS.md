@@ -12,7 +12,7 @@ Use this file as package-specific guidance when working in this repository. Keep
 
 ## Repository Layout
 - `app/`: project application configuration and code.
-- `docker/`: Docker configuration.
+- `docker/`, `docker-compose.yaml`: Docker configuration copied from `drago-ex/project-docker` by `drago-install` after `composer install`; not part of this repository.
 - `www/`: web root files.
 - `.github/`: CI workflows; keep their PHP versions and commands consistent with Composer and the package scripts.
 - `composer.json`: package metadata, dependency constraints, autoloading, and available Composer scripts.
@@ -20,7 +20,7 @@ Use this file as package-specific guidance when working in this repository. Keep
 ## Dependencies
 
 Composer constraints describe the package contract. Before changing integration behavior, inspect the source and the actual call sites in this package; do not infer runtime usage solely from dependency declarations.
-Development dependencies include phpstan/phpstan-nette (^2.0), drago-ex/project-tools (^1.0).
+Development dependencies include phpstan/phpstan-nette (^2.0), drago-ex/project-tools (^2.0).
 
 ## Essential Commands
 

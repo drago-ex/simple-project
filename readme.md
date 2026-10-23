@@ -17,3 +17,14 @@ Basic project for creating single-page sites with Drago Simple and a ready-to-us
 ```bash
 composer create-project drago-ex/simple-project
 ```
+
+## Usage
+
+Start the PHP server and open http://localhost:8080:
+
+```bash
+npm run docker:dev
+```
+
+The page is `app/Home.php` with its template `app/templates/Home.latte`; the Latte engine and the traits are
+described in the [Drago Simple README](https://github.com/drago-ex/simple).

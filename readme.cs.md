@@ -1,7 +1,5 @@
 # Drago Simple Project
 
-[English](readme.md) | Čeština
-
 Základní projekt pro jednostránkové weby s Drago Simple a připraveným PHP serverem v Dockeru.
 
 [![PHP version](https://badge.fury.io/ph/drago-ex%2Fsimple-project.svg)](https://badge.fury.io/ph/drago-ex%2Fsimple-project)

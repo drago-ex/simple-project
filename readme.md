@@ -1,7 +1,5 @@
 # Drago Simple Project
 
-English | [Čeština](readme.cs.md)
-
 Basic project for creating single-page sites with Drago Simple and a ready-to-use PHP Docker server.
 
 [![PHP version](https://badge.fury.io/ph/drago-ex%2Fsimple-project.svg)](https://badge.fury.io/ph/drago-ex%2Fsimple-project)

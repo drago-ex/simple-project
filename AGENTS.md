@@ -7,7 +7,7 @@ Use this file as package-specific guidance when working in this repository. Keep
 - **Type**: project
 - **Purpose**: Basic project for creating single-page sites with Drago Simple.
 - **PHP**: >=8.3 <9
-- **Runtime dependencies**: tracy/tracy (^2.7), drago-ex/simple (^2.0 || ^3.0), drago-ex/project-docker (^2.0)
+- **Runtime dependencies**: tracy/tracy (^2.7), drago-ex/simple (^3.0), drago-ex/project-docker (^1.0)
 - **License**: MIT
 
 ## Repository Layout
@@ -20,7 +20,7 @@ Use this file as package-specific guidance when working in this repository. Keep
 ## Dependencies
 
 Composer constraints describe the package contract. Before changing integration behavior, inspect the source and the actual call sites in this package; do not infer runtime usage solely from dependency declarations.
-Development dependencies include phpstan/phpstan-nette (^2.0), drago-ex/project-tools (^2.0).
+Development dependencies include phpstan/phpstan-nette (^2.0), drago-ex/project-tools (^1.0).
 
 ## Essential Commands
 

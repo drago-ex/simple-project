@@ -12,12 +12,12 @@
 	"require": {
 		"php": ">=8.3 <9",
 		"tracy/tracy": "^2.7",
-		"drago-ex/simple": "^2.0 || ^3.0",
-		"drago-ex/project-docker": "^2.0"
+		"drago-ex/simple": "^3.0",
+		"drago-ex/project-docker": "^1.0"
 	},
 	"require-dev": {
 		"phpstan/phpstan-nette": "^2.0",
-		"drago-ex/project-tools": "^2.0"
+		"drago-ex/project-tools": "^1.0"
 	},
 	"autoload": {
 		"psr-4": {

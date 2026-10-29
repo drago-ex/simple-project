@@ -7,7 +7,7 @@ Use this file as package-specific guidance when working in this repository. Keep
 - **Type**: project
 - **Purpose**: Basic project for creating single-page sites with Drago Simple.
 - **PHP**: >=8.3 <9
-- **Runtime dependencies**: tracy/tracy (^2.7), drago-ex/simple (^3.0), drago-ex/project-docker (^1.0)
+- **Runtime dependencies**: tracy/tracy (^2.7), latte/latte (^3.1.2), drago-ex/simple (^3.0), drago-ex/project-docker (^1.0)
 - **License**: MIT
 
 ## Repository Layout

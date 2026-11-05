@@ -8,9 +8,8 @@ Basic project for creating single-page sites with Drago Simple and a ready-to-us
 ## Requirements
 
 - PHP >= 8.3, < 9
-- Nette Framework
 - Composer
-- Docker
+- Docker and Node.js (npm runs the Docker scripts)
 
 ## Installation
 
